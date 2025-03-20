@@ -7,7 +7,7 @@ void fillEvenNumbers(int *arr, int count) { // Function of filling the array wit
     }
 }
 
-int main() {
+int main() {             
     int count = 25 / 2; // Number of pairs between 1-25
     int *arr = (int *)malloc(count * sizeof(int)); //Memory allocation
     
